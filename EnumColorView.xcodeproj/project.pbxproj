@@ -11,6 +11,8 @@
 		38044BCD2AC60FA70028EB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38044BCC2AC60FA70028EB68 /* ContentView.swift */; };
 		38044BCF2AC60FA80028EB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38044BCE2AC60FA80028EB68 /* Assets.xcassets */; };
 		38044BD32AC60FA80028EB68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38044BD22AC60FA80028EB68 /* Preview Assets.xcassets */; };
+		38044BDA2AC610300028EB68 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38044BD92AC610300028EB68 /* Element.swift */; };
+		38044BDD2AC6186F0028EB68 /* MatějEnumTrick.png in Resources */ = {isa = PBXBuildFile; fileRef = 38044BDC2AC6186F0028EB68 /* MatějEnumTrick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		38044BCE2AC60FA80028EB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38044BD02AC60FA80028EB68 /* EnumColorView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnumColorView.entitlements; sourceTree = "<group>"; };
 		38044BD22AC60FA80028EB68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38044BD92AC610300028EB68 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		38044BDB2AC6163C0028EB68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38044BDC2AC6186F0028EB68 /* MatějEnumTrick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MatějEnumTrick.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,8 @@
 		38044BBE2AC60FA70028EB68 = {
 			isa = PBXGroup;
 			children = (
+				38044BDB2AC6163C0028EB68 /* README.md */,
+				38044BDC2AC6186F0028EB68 /* MatějEnumTrick.png */,
 				38044BC92AC60FA70028EB68 /* EnumColorView */,
 				38044BC82AC60FA70028EB68 /* Products */,
 			);
@@ -54,6 +61,7 @@
 			children = (
 				38044BCA2AC60FA70028EB68 /* EnumColorViewApp.swift */,
 				38044BCC2AC60FA70028EB68 /* ContentView.swift */,
+				38044BD92AC610300028EB68 /* Element.swift */,
 				38044BCE2AC60FA80028EB68 /* Assets.xcassets */,
 				38044BD02AC60FA80028EB68 /* EnumColorView.entitlements */,
 				38044BD12AC60FA80028EB68 /* Preview Content */,
@@ -127,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38044BDD2AC6186F0028EB68 /* MatějEnumTrick.png in Resources */,
 				38044BD32AC60FA80028EB68 /* Preview Assets.xcassets in Resources */,
 				38044BCF2AC60FA80028EB68 /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38044BCD2AC60FA70028EB68 /* ContentView.swift in Sources */,
+				38044BDA2AC610300028EB68 /* Element.swift in Sources */,
 				38044BCB2AC60FA70028EB68 /* EnumColorViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

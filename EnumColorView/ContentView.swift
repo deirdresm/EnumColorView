@@ -9,12 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
+		VStack {
+			HStack {
+				ForEach(Array(Element.allCases.enumerated()), id: \.offset) { enumerated in
+					VStack {
+						enumerated.element
+							.overlay(Text(enumerated.element.description)
+										.font(.largeTitle))
+							.environment(\.colorScheme, .light)
+
+						enumerated.element
+							.overlay(Text(enumerated.element.description)
+										.font(.largeTitle))
+							.environment(\.colorScheme, .dark)
+					}
+				}
+			}
+			LinearGradient(gradient: Element.gradient, startPoint: .leading, endPoint: .trailing)
+				.environment(\.colorScheme, .light)
+			LinearGradient(gradient: Element.gradient, startPoint: .leading, endPoint: .trailing)
+				.environment(\.colorScheme, .dark)
+		}
         .padding()
     }
 }
